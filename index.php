@@ -8,7 +8,7 @@ $y_array = array( 0, 50, 99, 150, 200, 250 );
 
 $dest_image      = imagecreatetruecolor( 330, 330 );
 $first_image     = imagecreatetruecolor( $width, $height );
-$bg_image_color  = imagecolorallocate( $first_image, 240, 240, 240 );
+$bg_image_color  = imagecolorallocate( $first_image, mt_rand( 150, 255 ), mt_rand( 150, 255 ), mt_rand( 150, 255 ) );
 $transparency    = imagecolorallocatealpha( $first_image, 0, 0, 0, 127 );
 $rectangle_color = imagecolorallocate( $first_image, mt_rand( 0, 150 ), mt_rand( 0, 150 ), mt_rand( 0, 150 ) );
 
