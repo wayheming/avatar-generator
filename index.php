@@ -42,6 +42,3 @@ imagepng($dest_image);
 imagedestroy($first_image);
 imagedestroy($second_image);
 imagedestroy($dest_image);
-
-
-$test = '';
