@@ -44,4 +44,4 @@ imagedestroy($second_image);
 imagedestroy($dest_image);
 
 
-$test = '';
+$test = '123';
