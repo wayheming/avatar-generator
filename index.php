@@ -16,8 +16,8 @@ $rectangle_color = imagecolorallocate( $first_image, mt_rand( 0, 150 ), mt_rand(
 imagefill( $first_image, 0, 0, $transparency );
 
 for ( $i = 1; $i <= 6; $i++ ) {
-	$x = $x_array[ mt_rand( 0, 3 ) ];
-	$y = $y_array[ mt_rand( 0, 6 ) ];
+	$x = $x_array[ mt_rand( 0, 2 ) ];
+	$y = $y_array[ mt_rand( 0, 5 ) ];
 
 	$x_pos = $x + 50;
 	$y_pos = $y + 50;
